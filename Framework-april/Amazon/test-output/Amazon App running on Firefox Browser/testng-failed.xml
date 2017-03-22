@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon App running on Firefox Browser]">
+  <parameter name="url" value="http://www.amazon.com"/>
+  <test name="Home Page(failed)">
+    <classes>
+      <class name="search.ItemSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="dropDownSearch"/>
+        </methods>
+      </class> <!-- search.ItemSearch -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+</suite> <!-- Failed suite [Amazon App running on Firefox Browser] -->
