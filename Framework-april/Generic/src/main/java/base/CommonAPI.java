@@ -32,7 +32,7 @@ public class CommonAPI {
     	
     	//driver = new FirefoxDriver();
     	driver=new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
     }
